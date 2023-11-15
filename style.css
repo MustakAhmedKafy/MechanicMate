@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lato:wght@300;400;700&display=swap");
+
+.hero {
+  background: rgba(0, 0, 0, 0) url(assets/images/image\ 1@2x.png) repeat scroll
+    0 0 / cover;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  height: 100%;
+  min-height: 520px;
+}
+.hero::after {
+  background: rgb(27, 20, 100) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: auto auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+.hero .container-fluid {
+  padding: 0px;
+}
+.hero .navbar img {
+  height: 58px;
+  width: 58px;
+}
+.hero .fa-bars {
+  color: #fff;
+  font-size: 22px;
+}
+button:focus {
+  box-shadow: none !important;
+}
+
+.hero .navbar {
+  background-color: transparent;
+}
+.hero .navbar ul {
+  background-color: rgb(217, 217, 217, 0.3);
+  width: 100%;
+  border-radius: 5px;
+  padding: 0px 20px 0px 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero .navbar ul li {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  color: #ffffff !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+.hero .nav-right-side {
+  width: 285px;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: rgb(217, 217, 217, 0.5);
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero .nav-right-side button {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  background-color: transparent !important;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+.hero .nav-right-side span {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+.hero .banner-content {
+  color: #ffffff;
+  text-align: left;
+}
+.hero .input-section {
+  background-color: rgb(217, 217, 217, 0.3);
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 14px;
+  border: 1px solid #ffff;
+}
+.hero .input-section .input-group-text {
+  border-right: 0px;
+  background-color: transparent;
+}
+.hero .input-section .form-control {
+  border-left: 0px;
+  background-color: transparent;
+}
+.hero .input-section .form-control::placeholder {
+  color: #ced4da;
+}
+.hero .input-section .form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+.hero .car-img {
+  position: absolute;
+  right: 85px;
+  top: 20%;
+}
+.hero .car-img .circle {
+  position: absolute;
+  bottom: -18px;
+  right: -4px;
+  z-index: -1;
+}
+.hero h1 {
+  font-size: 52px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+.hero h2 {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+.hero .car-repair {
+  position: relative;
+  z-index: 9;
+}
+.hero p {
+  font-family: "Lato", sans-serif;
+}
+/* hero section area end */
+/* hero section area end */
+
+.black-bg {
+  height: 16px;
+  background-color: #212534;
+}
+
+/* how it works area start
+how it works area start */
+
+.how-it-works {
+  background: rgb(0, 0, 0) url(assets/images/Rectangle\ 20@2x.png) repeat scroll
+    0 0 / cover;
+  height: 240px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  height: 100%;
+  min-height: 700px;
+}
+.how-it-works::after {
+  background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: auto auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+.how-it-works .work-card {
+  background-color: rgb(217, 217, 217, 0.5);
+  display: flex;
+  border-radius: 5px;
+  margin-top: -10px;
+}
+.how-it-works .work-card h5 {
+  color: #ffffff;
+  text-align: left;
+  padding-left: 5px;
+}
+.how-it-works .work-card-2 h3,
+.how-it-works .work-card-2 h5 {
+  color: #ffffff;
+}
+.how-it-works .input-group {
+  width: 280px;
+  padding-left: 20px;
+}
+.how-it-works .work-card-2 .form-control::placeholder {
+  color: #ffffff !important;
+}
+
+.how-it-works .form-control {
+  color: #ffffff;
+}
+.how-it-works .form-control:focus {
+  box-shadow: none;
+}
+.how-it-works .input-group-text {
+  padding: 3px !important;
+}
+
+/* how it works area end
+how it works area end */
+
+/* our customer */
+.our-customer {
+  background-color: #23283b;
+}
+.our-customer .vehicle-search {
+  width: 320px;
+}
+.vehicle-search .input-group {
+  padding-left: 10px;
+}
+
+/* table */
+.table thead th:not(:first-of-type),
+.table tbody td:not(:first-of-type) {
+  padding: 10px;
+  max-width: 100px;
+  background-color: #040343;
+  color: #fff;
+  font-size: 12px;
+}
+
+.table thead th:not(:first-of-type) div {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.table-responsive .bg-dark {
+  background-color: #000 !important;
+}
+.table-responsive .row-content {
+  height: 50px;
+  font-size: 15px;
+}
+.feature-row {
+  height: 100px;
+}
+.price-row {
+  font-size: 17px;
+}
+.table-responsive span {
+  font-size: 10px;
+}
+.table-responsive .inspection{
+  height: 70px;
+  font-size: 20px;
+}
+
+/* table end */
+.our-customer .form-control::placeholder {
+  color: #ffffff !important;
+  padding-left: 10px;
+}
+
+.our-customer .form-control {
+  color: #ffffff;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.our-customer .input-group-text {
+  padding: 3px !important;
+}
+.our-customer .input-group-text img {
+  height: 30px;
+  margin-left: 5px;
+}
+
+.input-group-text input {
+  padding-left: 10px;
+}
+
+/* 
+  Service cards */
+.service-cards .row {
+  --bs-gutter-x: 8rem;
+}
+.service-cards .card {
+  position: relative;
+}
+.service-cards .card::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  rotate: 6deg;
+}
+.service-cards h5 {
+  color: #5f636b !important;
+}
+.service-cards .title {
+  color: #cfd0db;
+  font-size: 12px;
+}
+.service-cards .quote-text {
+  color: #5f6383;
+}
+.service-cards .text-end a {
+  margin-right: 35px !important;
+  color: #00a9ff;
+}
+.service-cards .service-bottom img {
+  margin-left: 8px;
+}
+
+.our-customer .service-bottom input::placeholder {
+  color: #91939d !important;
+}
+.our-customer button {
+  background-color: #721cff !important;
+  border: 0px;
+}
+
+/* footer */
+footer {
+  background-color: #222229;
+}
+footer .para {
+  font-size: 10px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer .footer-logo ul li {
+  padding: 6px 8px;
+  background-color: white;
+  color: black;
+  display: inline;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+footer .footer-logo ul li:nth-child(1) {
+  padding-left: 10px;
+}
+footer .footer-logo ul li:nth-child(2) {
+  padding-right: 5px;
+}
+footer .footer-logo ul li:nth-child(3) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer .service ul li {
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+
+footer .information ul li {
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+footer .information .fa-brands,
+.fa-solid {
+  margin-right: 5px;
+}
+
+footer button {
+  background-color: #721cff !important;
+  border: 0px;
+}
+
+/* ///responsive/// */
+/* mobile  */
+@media (max-width: 768px) {
+  .nav-right-side {
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  .service-cards .row {
+    --bs-gutter-x: -3rem;
+  }
+  .hero .navbar img {
+    margin-left: 15px;
+  }
+  .hero h1 {
+    font-size: 33px;
+  }
+  .hero h2 {
+    font-size: 23px;
+  }
+}
+
+/* tab */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero .navbar img {
+    margin-left: 40px;
+  }
+  .hero h2 {
+    font-size: 35px;
+  }
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  .hero .nav-container {
+    max-width: 100%;
+  }
+}
