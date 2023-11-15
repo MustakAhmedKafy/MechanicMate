@@ -260,6 +260,9 @@ how it works area end */
   height: 50px;
   font-size: 15px;
 }
+.row-content p {
+  margin: 0px !important;
+}
 .feature-row {
   height: 100px;
 }
@@ -269,7 +272,7 @@ how it works area end */
 .table-responsive span {
   font-size: 10px;
 }
-.table-responsive .inspection{
+.table-responsive .inspection {
   height: 70px;
   font-size: 20px;
 }
@@ -411,6 +414,12 @@ footer button {
   .hero h2 {
     font-size: 23px;
   }
+  .table-responsive .row-content {
+    font-size: 11px;
+  }
+  .table-responsive span {
+    font-size: 8px;
+  }
 }
 
 /* tab */
@@ -420,6 +429,12 @@ footer button {
   }
   .hero h2 {
     font-size: 35px;
+  }
+  .table-responsive .row-content {
+    font-size: 11px;
+  }
+  .table-responsive span {
+    font-size: 9px;
   }
 }
 
